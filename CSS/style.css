@@ -1,0 +1,65 @@
+body{
+	width:100%;
+}
+
+nav {
+	
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	list-style-type: none; 
+	align-items: flex-end;
+	background-image: url("https://image.freepik.com/vecteurs-libre/orange-abstrait-hexagonal-miel-peigne-arriere-plan_1164-1261.jpg");
+	background-repeat: repeat;
+	background-position: center;
+	height: 100px;
+	width: 100%;
+}
+
+
+
+
+a{text-decoration: none;
+	border:solid 1px;
+	border-radius: 5px;
+	color:#FF4500;
+	background-color: #D3D3D3;
+	padding: 5%;
+
+}
+
+a:link {color: #FF4500;}
+a:visited {color: #FF4500;}
+a:hover {color: #FF4500;}
+a:active {color: #FF4500;}
+
+
+
+
+
+
+section {
+	display: flex;
+	
+	align-content: space-around;
+	flex-wrap: wrap;
+}
+
+h1 {
+	text-align: center;
+}
+
+article {
+	padding: 10px;
+	border: 1px solid;
+}
+
+img {
+	width: 300px;
+	border-radius: 0%;
+	border: solid 1px;
+}
