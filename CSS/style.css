@@ -1,8 +1,11 @@
 body{
 	width:100%;
+	margin:0 auto;
+	padding: 0 auto;
+	background-color: #FF9E19;
 }
 
-nav {
+nav { 
 	
 }
 
@@ -18,9 +21,9 @@ ul {
 	background-position: center;
 	height: 100px;
 	width: 100%;
+	margin: 0 auto;
+	padding: 0 auto;
 }
-
-
 
 
 a{text-decoration: none;
@@ -34,7 +37,8 @@ a{text-decoration: none;
 
 a:link {color: #FF4500;}
 a:visited {color: #FF4500;}
-a:hover {color: #FF4500;}
+a:hover {color: #FF4500;
+			background-color: grey}
 a:active {color: #FF4500;}
 
 
@@ -59,7 +63,14 @@ article {
 }
 
 img {
-	width: 300px;
 	border-radius: 0%;
 	border: solid 1px;
 }
+
+#pp {
+	width: 200px;
+}
+#becode {
+	width: 400px;
+}
+
