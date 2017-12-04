@@ -1,6 +1,6 @@
 * {
 	padding: 0;
-	margin:0;
+	margin:0 ;
 }
 
 body{
@@ -34,15 +34,21 @@ ul {
 	padding: 0 auto;
 }
 
-
-a{text-decoration: none;
+a{
 	border:solid 1px;
 	border-radius: 5px;
 	color:#FF4500;
 	background-color: #D3D3D3;
-	padding: 5%;
-
+  padding-left:40px;
+  padding-right:40px;
+  padding-bottom: 7px;
+  padding-top:7px;	
+  display: block;  
+  text-decoration: none;
 }
+
+
+
 
 a:link {color: #FF4500;}
 a:visited {color: #FF4500;}
@@ -153,10 +159,20 @@ img {
 
 #pp {
 	width: 20%;
+ 
 }
-#becode {
-	width: 47.7%;
 
+#ppimg{
+  width: 100%;
+  height:100%;
+}
+#becodeBlock {
+	width: 47.7%;
+}
+
+#becode {
+  height: 100%;
+  width: 100%;
 }
 
 #presentation {
@@ -174,7 +190,7 @@ img {
 
 
 /*-------------------------*/
-/*
+
 #shoot {
 
 	position: absolute;
@@ -183,7 +199,7 @@ img {
 	opacity: 0;
 	animation-name: shoot;
 	animation-duration: 3.2s;
-	animation-delay: 10s;
+	animation-delay: 10.2s;
 }
 
 @keyframes shoot {
@@ -203,12 +219,30 @@ img {
   #becode {
   	animation-name: becode;
   	animation-duration: 2s;
-  	animation-delay: 13s;
+  	animation-delay: 12.2s;
+   
   }
 
   @keyframes becode {
 
-  	0% {
+  	0% {transform:translate(0px,0px) rotate(0deg);
+      ;
 
   	}
-  } */
+
+    99% {
+      transform:translate(1500px,800px)rotate(1500deg);
+      opacity: 1;
+    }
+    100%{transform:translate(-1500px,-800px)rotate(-1500deg);
+          opacity:0;}
+  } 
+
+
+
+
+
+  /*------------------------------------------------*/
+
+
+ 
