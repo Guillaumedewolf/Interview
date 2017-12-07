@@ -245,4 +245,41 @@ img {
   /*------------------------------------------------*/
 
 
- 
+ #thug {
+  position:absolute;
+  top:0%;
+  left:0%;
+  opacity:0;
+  width:230px;
+  height: auto;
+  animation-name: thug;
+  animation-duration: 4s;
+  animation-delay: 13s
+ }
+
+ @keyframes thug {
+      
+      0%{opacity: 0;
+          top:0%;
+          left:0%;
+      }
+      1%{opacity: 1;
+          top:0%;
+          left:0%;
+          transform: rotate(-1500deg);
+        }
+      50%{
+          top:28%;
+          left:13%;
+          transform: rotate(10deg);
+      }
+      99%{opacity: 1;
+          top:28%;
+          left:13%;
+        }
+      100%{opacity: 0;
+          top:28%;
+          left:13%;
+        }
+
+ }

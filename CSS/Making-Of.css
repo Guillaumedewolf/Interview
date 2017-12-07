@@ -121,4 +121,61 @@ a:active {color: #FF4500;}
   }
   } 
 
+/*---------troll---------*/
+#img1{
+  margin-top: 200px;
+}
+#img2{
+  margin-left: -15px;
+  margin-top: 200px;
+}
+#img3{
+  margin-left:-84px;
+  margin-top: 200px;
+}
 
+#cache {
+  margin-top: -70px;
+  height: 70px;
+  width: 100%;
+  background-color: #D3D3D3;
+  position: absolute;
+  z-index: 2;
+  animation-name: cache;
+  animation-duration: 5s;
+  animation-delay:0.1s;
+
+
+}
+
+#kat {
+  z-index: 3;
+  position: absolute;
+  height: 80px;
+  image-orientation: flip; 
+  margin-top: 190px;
+  opacity: 0;
+  animation-name: kat;
+  animation-duration: 5s;
+}
+
+@keyframes cache {
+  0% {
+    width: 100%
+  }
+
+  100% {
+    width: 5%
+
+  }
+
+}
+@keyframes kat {
+  0%{opacity: 0;
+      left:100%;}
+  1%{opacity: 1;
+      left:100%;}
+  100% {opacity: 1;
+        left:0%;
+  }
+}
