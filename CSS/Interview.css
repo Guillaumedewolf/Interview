@@ -323,29 +323,29 @@ body>div>nav>ul>img {
 @keyframes coter {
 
   0% {
-    transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0%, 0px) rotate(0deg);
     
   }
   80%{
-    transform:  translate(150px, -50px) rotate(-45deg);
+    transform:  translate(100%, -50px) rotate(-45deg);
   }
   100%{
-    transform:  translate(150px, -50px) rotate(-45deg);
+    transform:  translate(100%, -50px) rotate(-45deg);
   }
 }
 
 @keyframes coter2 {
 
   0% {
-    transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0%, 0px) rotate(0deg);
 
     
   }
   80%{
-    transform:  translate(-150px, -50px) rotate(45deg);
+    transform:  translate(-100%, -50px) rotate(45deg);
   }
   100%{
-    transform:  translate(-150px, -50px) rotate(45deg);
+    transform:  translate(-100%, -50px) rotate(45deg);
   }
 }
 
@@ -353,19 +353,19 @@ body>div>nav>ul>img {
   0%{
       opacity: 0;
       z-index: 2;
-      transform: translateX(-13px);
+      
   }
 
   1%{
       opacity: 0;
       z-index: 2;
-      transform: translateX(-13px);
+     
   }
 
   100% 
   { opacity: 1;
     z-index: 2;
-    transform: translateX(-13px);
+    
 
   }
 }
