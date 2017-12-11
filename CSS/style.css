@@ -2,7 +2,9 @@
 	padding: 0;
 	margin:0 ;
 }
-
+html{
+  overflow-x:hidden;
+}
 body{
 	width:100%;
 	margin:0 auto;
@@ -193,14 +195,19 @@ img {
 /*-------------------------*/
 
 #shoot {
-
+  background-image: url(../Images/shoot.png);
+  height: 160px;
+  width: 500px;
 	position: absolute;
 	top:50%;
 	left:27%;
 	opacity: 0;
-	animation-name: shoot;
+	/*animation-name: shoot;
 	animation-duration: 3.2s;
-	animation-delay: 10.2s;
+	animation-delay: 10.2s;*/
+  animation: play 3s steps(34);
+  animation-delay: 10.2s
+
 }
 
 @keyframes shoot {
@@ -217,10 +224,17 @@ img {
   	}
   } 
 
+  @keyframes play {
+    0%{opacity: 1}
+   99% { background-position: -17340px; 
+        opacity:1;}
+   100%{opacity: 0}
+}
+
   #becode {
   	animation-name: becode;
   	animation-duration: 2s;
-  	animation-delay: 12.2s;
+  	animation-delay: 11.9s;
    
   }
 
