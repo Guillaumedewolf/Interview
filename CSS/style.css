@@ -211,9 +211,9 @@ img {
   height: 160px;
   width: 500px;
 	position: absolute;
-	top:80%;
-	left:27%;
 	opacity: 0;
+  margin-top: -200px;
+  margin-left: -330px;
 	/*animation-name: shoot;
 	animation-duration: 3.2s;
 	animation-delay: 10.2s;*/
@@ -282,7 +282,7 @@ img {
   height: auto;
   animation-name: thug;
   animation-duration: 4s;
-  animation-delay:2s;
+  animation-delay:12s;
  }
 
  @keyframes thug {
