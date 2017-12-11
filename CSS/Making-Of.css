@@ -1,53 +1,63 @@
 * {
-	padding: 0;
-	margin:0;
+  padding: 0;
+  margin:0 ;
 }
-
+html{
+  overflow-x: hidden;
+}
 body{
-	width:100%;
-	margin:0 auto;
-	padding: 0 auto;
-	background-color: #D3D3D3 ;
+  width:100%;
+  margin:0 auto;
+  padding: 0 auto;
+  background-color: #D3D3D3 ;
 
 }
 
 #page { margin-left: 15%;
-		margin-right: 15%;
-		text-align:center;
-		border: solid 3px #FF4500;
-		
+    margin-right: 15%;
+    text-align:center;
+    border: solid 3px #FF4500;
+
+    
 }
 
 ul {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	list-style-type: none; 
-	align-items: flex-end;
-	background-image: url("https://image.freepik.com/vecteurs-libre/orange-abstrait-hexagonal-miel-peigne-arriere-plan_1164-1261.jpg");
-	background-repeat: repeat;
-	background-position: center;
-	height: 100px;
-	width: 100%;
-	margin: 0 auto;
-	padding: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none; 
+  align-items: flex-end;
+  background-image: url("https://image.freepik.com/vecteurs-libre/orange-abstrait-hexagonal-miel-peigne-arriere-plan_1164-1261.jpg");
+  background-repeat: repeat;
+  background-position: center;
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
+  overflow: hidden;
+}
+
+a{
+  border:solid 1px;
+  border-radius: 5px;
+  color:#FF4500;
+  background-color: #D3D3D3;
+  padding-left:40px;
+  padding-right:40px;
+  padding-bottom: 7px;
+  padding-top:7px;  
+  display: block;  
+  text-decoration: none;
 }
 
 
-a{text-decoration: none;
-	border:solid 1px;
-	border-radius: 5px;
-	color:#FF4500;
-	background-color: #D3D3D3;
-	padding: 5%;
 
-}
 
 a:link {color: #FF4500;}
 a:visited {color: #FF4500;}
 a:hover {color: #FF4500;
-			background-color: grey}
+      background-color: grey}
 a:active {color: #FF4500;}
 
 /*--------------------------------*/
@@ -120,17 +130,37 @@ a:active {color: #FF4500;}
   transform: scale3d(1, 1, 1);
   }
   } 
+/*---------corp----------*/
+
+h1{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+h2{margin-bottom: 15px;
+
+}
+p{
+  margin-bottom: 15px;
+}
+
 
 /*---------troll---------*/
+
+
+#arcenciel{width: 100%}
+
 #img1{
+  width: 33.33%;
   margin-top: 200px;
 }
 #img2{
-  margin-left: -15px;
+  width: 33.33%;
+  margin-left:-10px;
   margin-top: 200px;
 }
 #img3{
-  margin-left:-84px;
+  width: 33.33%;
+  margin-left:-20px;
   margin-top: 200px;
 }
 
@@ -138,12 +168,13 @@ a:active {color: #FF4500;}
   margin-top: -70px;
   height: 70px;
   width: 100%;
-  background-color: #D3D3D3;
+  background-color:  #D3D3D3;
   position: absolute;
   z-index: 2;
   animation-name: cache;
   animation-duration: 5s;
-  animation-delay:0.1s;
+  animation-delay:10.3s;
+  animation-timing-function: linear;
 
 
 }
@@ -152,30 +183,33 @@ a:active {color: #FF4500;}
   z-index: 3;
   position: absolute;
   height: 80px;
-  image-orientation: flip; 
   margin-top: 190px;
   opacity: 0;
   animation-name: kat;
-  animation-duration: 5s;
+  animation-duration: 5.5s;
+  animation-delay: 10s;
+  animation-timing-function: linear;
 }
 
 @keyframes cache {
   0% {
-    width: 100%
+    transform: translate(0%);
+    
   }
 
   100% {
-    width: 5%
+   transform: translate(100%);
+   
 
   }
 
 }
 @keyframes kat {
   0%{opacity: 0;
-      left:100%;}
+      right:100%;}
   1%{opacity: 1;
-      left:100%;}
+      right:100%;}
   100% {opacity: 1;
-        left:0%;
+        right:-10%;
   }
 }

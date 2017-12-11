@@ -1,56 +1,60 @@
 * {
-	padding: 0;
-	margin:0;
+  padding: 0;
+  margin:0 ;
 }
 
 body{
-	width:100%;
-	margin:0 auto;
-	padding: 0 auto;
-	background-color: #D3D3D3 ;
+  width:100%;
+  margin:0 auto;
+  padding: 0 auto;
+  background-color: #D3D3D3 ;
 
 }
 
 #page { margin-left: 15%;
-		margin-right: 15%;
-		text-align:center;
-		border: solid 3px #FF4500;
-		border-top:none;
-		
+    margin-right: 15%;
+    text-align:center;
+    border: solid 3px #FF4500;
+    
 }
 
 ul {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	list-style-type: none; 
-	align-items: flex-end;
-	background-image: url("https://image.freepik.com/vecteurs-libre/orange-abstrait-hexagonal-miel-peigne-arriere-plan_1164-1261.jpg");
-	background-repeat: repeat;
-	background-position: center;
-	height: 100px;
-	width: 69.5%;
-	margin: 0 auto;
-	padding: 0 auto;
-	position: fixed; 
-    overflow: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none; 
+  align-items: flex-end;
+  background-image: url("https://image.freepik.com/vecteurs-libre/orange-abstrait-hexagonal-miel-peigne-arriere-plan_1164-1261.jpg");
+  background-repeat: repeat;
+  background-position: center;
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
+  overflow: hidden;
+}
+
+a{
+  border:solid 1px;
+  border-radius: 5px;
+  color:#FF4500;
+  background-color: #D3D3D3;
+  padding-left:40px;
+  padding-right:40px;
+  padding-bottom: 7px;
+  padding-top:7px;  
+  display: block;  
+  text-decoration: none;
 }
 
 
-a{text-decoration: none;
-	border:solid 1px;
-	border-radius: 5px;
-	color:#FF4500;
-	background-color: #D3D3D3;
-	padding: 5%;
 
-}
 
 a:link {color: #FF4500;}
 a:visited {color: #FF4500;}
 a:hover {color: #FF4500;
-			background-color: grey}
+      background-color: grey}
 a:active {color: #FF4500;}
 
 /*--------------------------------*/
@@ -127,7 +131,7 @@ a:active {color: #FF4500;}
 /*----------------------------*/
 
 #block1 {
-	margin-top: 10%
+	margin-top: 5%
 }
 
 section {
@@ -140,7 +144,11 @@ p {
 }
 
 
-
+h2{
+  z-index: -1;
+  margin-bottom:10px;
+  margin-top: 10px
+}
 
 
 
@@ -283,14 +291,14 @@ label {
 
 /*--------troll---------*/
 
-nav>ul>a:nth-child(2){
+nav>ul>li:nth-child(2){
   animation-name: coter;
   animation-duration: 8s;
   animation-delay: 10s;
   animation-fill-mode: backwards;
 }
 
-nav>ul>a:nth-child(4){
+nav>ul>li:nth-child(4){
   animation-name: coter2;
   animation-duration: 8s;
   animation-delay: 10s;
