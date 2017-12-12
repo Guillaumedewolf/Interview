@@ -33,7 +33,7 @@ ul {
   justify-content: space-around;
   list-style-type: none; 
   align-items: flex-end;
-  background-image: url("https://image.freepik.com/vecteurs-libre/orange-abstrait-hexagonal-miel-peigne-arriere-plan_1164-1261.jpg");
+  background-image: url("../Images/fond-navbar.jpg");
   background-repeat: repeat;
   background-position: center;
   height: 100px;
