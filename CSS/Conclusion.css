@@ -18,6 +18,10 @@ body{
     
 }
 
+@media screen and (min-width: 1000px) {
+#page { width: 900px;
+}
+
 ul {
   display: flex;
   flex-direction: row;
