@@ -164,11 +164,12 @@ img {
 }
 
 #pp {
+  margin-left: 15px;
 	width: 300px;
   height: 338px;
-  background-image: url(../Images/PPvcard.png);
+  background-image: url(../Images/PPvcard.jpg);
   background-repeat: no-repeat;
-  background-position: -3100px;
+  background-position: -3000px;
   animation: PP 1s steps(11) 1.2s;
 
   
@@ -203,7 +204,7 @@ img {
 
 @keyframes PP{
   0%{background-position: 1px}
-  100%{background-position: -3410px}
+  100%{background-position: -3300px}
 }
 
 
