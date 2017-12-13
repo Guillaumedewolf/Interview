@@ -169,8 +169,9 @@ img {
   height: 338px;
   background-image: url(../Images/PPvcard.jpg);
   background-repeat: no-repeat;
-  background-position: -3000px;
-  animation: PP 1s steps(11) 1.2s;
+  
+  animation: PP 1s steps(10) 1.2s;
+  animation-fill-mode: forwards;
 
   
  
@@ -204,7 +205,7 @@ img {
 
 @keyframes PP{
   0%{background-position: 1px}
-  100%{background-position: -3300px}
+  100%{background-position: -3000px}
 }
 
 
@@ -221,8 +222,7 @@ img {
 	/*animation-name: shoot;
 	animation-duration: 3.2s;
 	animation-delay: 10.2s;*/
-  animation: play 3s steps(34);
-  animation-delay: 10.2s
+  animation: play 6s steps(34) 10.2s;
 
 }
 
